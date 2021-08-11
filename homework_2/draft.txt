@@ -3,7 +3,7 @@ https://movies.yahoo.com.tw/moviegenre_result.html?genre_id=1&page=1
 foreach genre_id(1~21)
 find their page number
 
-foreach genre_id
+foreach genre_idh 
 	foreach page in genre_id
 		take their link
 		merge_data(list,url)
