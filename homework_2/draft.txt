@@ -1,0 +1,26 @@
+https://movies.yahoo.com.tw/moviegenre_result.html?genre_id=1&page=1
+
+foreach genre_id(1~21)
+find their page number
+
+foreach genre_id
+	foreach page in genre_id
+		take their link
+		merge_data(list,url)
+		if url is already in list then early return;
+		
+print list
+
+
+
+
+how list should be like?
+table of entry
+
+entry:
+	name:string,unique?
+	link:string,if check un correct,then try to pause for that.
+	when:string
+	desc:string
+	class:list of string	
+	
